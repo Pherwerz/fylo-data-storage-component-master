@@ -79,10 +79,10 @@ body {
   grid-column: 1 / 2;
   height: 100%;
   width: 100%;
-  border-top-right-radius: 10rem;
+  border-top-right-radius: 6rem;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem;
   justify-content: flex-start; }
   @media only screen and (max-width: 47em) {
     .folder {
@@ -90,9 +90,9 @@ body {
       grid-column: 1 / -1; } }
   .folder__logo {
     flex: 0 0 50%;
-    margin-bottom: 1rem; }
+    margin-bottom: .5rem; }
     .folder__logo--icon {
-      height: 4rem; }
+      height: 3rem; }
   .folder__icon {
     flex: 1;
     display: flex;
